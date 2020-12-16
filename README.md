@@ -44,6 +44,7 @@ import Masonry from 'react-native-masonry-layout';
 |Props|Type|Description|Default|
 |-----|-----|-----|-----|
 | columns | number | Desired number of columns | 2 |
+| getScrollViewRef | fuc |  getScrollViewRef = (r) => {this.myScrollView = r} | 2 |
 | header | View | Add view in front of the masonry layout | null |
 | footer | View | Add view in behind the masonry layout | null |
 | containerStyle | ViewStyle | Defining the style of the container view | null |
